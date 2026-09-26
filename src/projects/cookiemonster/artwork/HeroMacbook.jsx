@@ -1,11 +1,11 @@
 /* Figma-generated artwork extracted from the original Claude Design export.
  * Treat as an illustration: edit the source design and re-export rather than hand-editing. */
-import imgGeneralSettingsYlva from '../../../assets/images/a157336c984482b95638cf09e21946c76fda2ef1.png';
+import imgGeneralSettingsYlva from '../../../assets/images/a157336c984482b95638cf09e21946c76fda2ef1.webp';
 import imgFrameForScroll from '../../../assets/images/651d763c59d22b730ee4696f19eca6d7e067789e.png';
 const img3288000121 = "data:image/svg+xml,%3Csvg%20preserveAspectRatio%3D%22none%22%20width%3D%22100%25%22%20height%3D%22100%25%22%20overflow%3D%22visible%22%20style%3D%22display%3A%20block%3B%22%20viewBox%3D%220%200%206%206%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Cpath%20id%3D%22Ellipse%202%22%20d%3D%22M2.67383%200.37793C3.098%200.165621%203.49607%200.144324%203.85742%200.24707C4.22299%200.351067%204.56315%200.586162%204.85645%200.901367C5.44719%201.53649%205.81235%202.46035%205.8125%203.15234C5.8125%203.85907%205.63123%204.32932%205.20605%204.69922C4.76489%205.08288%204.04266%205.37625%202.91113%205.66797C1.80743%205.9525%201.14452%205.78626%200.754883%205.43066C0.35695%205.06749%200.187512%204.45815%200.1875%203.7334C0.1875%203.02178%200.360719%202.41351%200.749023%201.87207C1.13979%201.32743%201.75879%200.836133%202.67383%200.37793Z%22%20fill%3D%22var(--fill-0%2C%20%23C4C4C4)%22%20stroke%3D%22var(--stroke-0%2C%20%23FD0000)%22%20stroke-width%3D%220.375368%22%2F%3E%0A%3C%2Fsvg%3E%0A";
-import img3288000122 from '../../../assets/images/c706810d7efdd88447e01ec88ec8d3c800256490.png';
+import img3288000122 from '../../../assets/images/c706810d7efdd88447e01ec88ec8d3c800256490.webp';
 const img2021081718021 = "data:image/svg+xml,%3Csvg%20preserveAspectRatio%3D%22none%22%20width%3D%22100%25%22%20height%3D%22100%25%22%20overflow%3D%22visible%22%20style%3D%22display%3A%20block%3B%22%20viewBox%3D%220%200%208.2581%208.2581%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Ccircle%20id%3D%22Ellipse%22%20cx%3D%224.12905%22%20cy%3D%224.12905%22%20r%3D%224.12905%22%20fill%3D%22var(--fill-0%2C%20%235F6368)%22%2F%3E%0A%3C%2Fsvg%3E%0A";
-import img2021081718022 from '../../../assets/images/3cf16841cd6c2437a564175992a12cada8343f12.png';
+import img2021081718022 from '../../../assets/images/3cf16841cd6c2437a564175992a12cada8343f12.webp';
 
 const svgPaths = {
   p115dfef0: "M0.187684 1.68916V0.938421C0.187684 0.938421 0.187684 0.187684 0.933955 0.187684C1.68023 0.187684 1.68023 0.938421 1.68023 0.938421V1.68916",

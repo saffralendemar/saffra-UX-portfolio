@@ -1,9 +1,9 @@
 /* Figma-generated artwork extracted from the original Claude Design export.
  * Treat as an illustration: edit the source design and re-export rather than hand-editing. */
-import imgImg2411 from '../../../assets/images/afb35e38f57f1563434301cdd2834cadadad7c88.png';
-import imgImg2412 from '../../../assets/images/4eb97957594e08555c854100fa6f236a80264cda.png';
-import imgImg2413 from '../../../assets/images/963ae21966225f63927940d0c06db189f2df7032.png';
-import imgImg2414 from '../../../assets/images/e88c0964cbfa76209607789824c2df70327e3d5c.png';
+import imgImg2411 from '../../../assets/images/afb35e38f57f1563434301cdd2834cadadad7c88.webp';
+import imgImg2412 from '../../../assets/images/4eb97957594e08555c854100fa6f236a80264cda.webp';
+import imgImg2413 from '../../../assets/images/963ae21966225f63927940d0c06db189f2df7032.webp';
+import imgImg2414 from '../../../assets/images/e88c0964cbfa76209607789824c2df70327e3d5c.webp';
 import imgYlvaIcon from '../../../assets/images/261d1a12a2eec4899b417fafa36113b95560deac.png';
 
 const svgPaths = {

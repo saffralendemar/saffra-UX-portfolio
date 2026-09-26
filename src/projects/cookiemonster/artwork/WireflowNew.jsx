@@ -1,6 +1,6 @@
 /* Figma-generated artwork extracted from the original Claude Design export.
  * Treat as an illustration: edit the source design and re-export rather than hand-editing. */
-import imgWelcome from '../../../assets/images/3230c8a5d7871f4c52dc2c99dc7e3a8e23f7a9e3.png';
+import imgWelcome from '../../../assets/images/3230c8a5d7871f4c52dc2c99dc7e3a8e23f7a9e3.webp';
 import imgYlvaIcon from '../../../assets/images/261d1a12a2eec4899b417fafa36113b95560deac.png';
 
 const svgPaths = {

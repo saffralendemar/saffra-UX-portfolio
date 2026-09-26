@@ -44,13 +44,13 @@ import ResultInfoPhones from './artwork/ResultInfoPhones';
 import ResultSafetyPhones from './artwork/ResultSafetyPhones';
 import OmmejLogomark from './artwork/OmmejLogomark';
 
-import sketch1 from '../../assets/images/18ddb15ade0bba5ee748b7d38d7707df86e171ca.png';
-import sketch2 from '../../assets/images/8d3fa33c83fab07dd58cf9fc0044b0d1212adb80.png';
-import sketch3 from '../../assets/images/3c5800d2d16d5223ee0dee58fceff1461513e116.png';
-import sketch4 from '../../assets/images/ab08f2d0495e529fe8c2522ab0a45bca24e9a1d4.png';
-import manualIterations from '../../assets/images/e8220b40f602340d78f08a470de93c68a233e4b9.png';
-import prototypeStrip from '../../assets/images/ebc613f7e72de3a6d8a06ef9ce75560d9b49bf67.png';
-import aiPrompts from '../../assets/images/cb3215c9e56a0dd28547d69aa55e6277148a989d.png';
+import sketch1 from '../../assets/images/18ddb15ade0bba5ee748b7d38d7707df86e171ca.webp';
+import sketch2 from '../../assets/images/8d3fa33c83fab07dd58cf9fc0044b0d1212adb80.webp';
+import sketch3 from '../../assets/images/3c5800d2d16d5223ee0dee58fceff1461513e116.webp';
+import sketch4 from '../../assets/images/ab08f2d0495e529fe8c2522ab0a45bca24e9a1d4.webp';
+import manualIterations from '../../assets/images/e8220b40f602340d78f08a470de93c68a233e4b9.webp';
+import prototypeStrip from '../../assets/images/ebc613f7e72de3a6d8a06ef9ce75560d9b49bf67.webp';
+import aiPrompts from '../../assets/images/cb3215c9e56a0dd28547d69aa55e6277148a989d.webp';
 
 import styles from './CaseStudy.module.css';
 
@@ -169,7 +169,7 @@ function OnboardingDesign() {
             title="Target audience"
           >
             <BulletList
-              items={['Children aged 8 - 16', 'May be going through difficult situations in life.', 'Short atension span. ']}
+              items={['Children aged 8 - 16', 'May be going through difficult situations in life.', 'Short attention span.']}
             />
           </InfoCard>
           <Stack gap={40} width={530}>
@@ -208,7 +208,7 @@ function OnboardingDesign() {
         </PhaseBadge>
         <Stack gap={32}>
           <TextBlock eyebrow="Sketching" gap={16} width={628}>
-            I first brainstorming different options for the flow in a divergent way.
+            I first brainstormed different options for the flow in a divergent way.
           </TextBlock>
           <ImageGrid
             gap={8.277}
@@ -229,7 +229,7 @@ function OnboardingDesign() {
           />
         </Stack>
         <Stack gap={32}>
-          <TextBlock eyebrow="Inspiration & competative analysis" gap={16} width={628}>
+          <TextBlock eyebrow="Inspiration & competitive analysis" gap={16} width={628}>
             Then I investigated how other child friendly services have made their onboardings.
           </TextBlock>
           <Artwork width={1064} label="Competitive analysis board with onboarding screenshots from child-friendly apps and review comments">
@@ -237,7 +237,7 @@ function OnboardingDesign() {
           </Artwork>
         </Stack>
         <ColumnGrid
-          title="Key insihgts"
+          title="Key insights"
           titleStyle="subheading"
           columns={[
             {
@@ -265,7 +265,7 @@ function OnboardingDesign() {
         </PhaseBadge>
         <Stack gap={32}>
           <TextBlock eyebrow="Manual iterations" gap={16} width={628}>
-            I explored many directions manually before converging on a testable solution. This were time consuming and something I would have sped
+            I explored many directions manually before converging on a testable solution. This was time-consuming and something I would have sped
             up through AI exploration from the very start if I would redo this today.
           </TextBlock>
           <Figure src={manualIterations} alt="Figma canvas showing the many manual iterations of the onboarding flow" width={2896} height={1248} radius={16} />
@@ -292,7 +292,7 @@ function OnboardingDesign() {
           </PhaseBadge>
           <Paragraph>
             I tested the flow internally with colleagues and a small group of people in my network. The feedback revealed critical issues related to
-            cognitive load, interuption and motivation. This ultimately challanged my inisial idea and led to a complete redesign of the flow.
+            cognitive load, interruption and motivation. This ultimately challenged my initial idea and led to a complete redesign of the flow.
           </Paragraph>
         </Stack>
         <ColumnGrid
@@ -300,7 +300,7 @@ function OnboardingDesign() {
           titleStyle="subheading"
           columns={[
             {
-              title: 'Cognetiv Overload',
+              title: 'Cognitive Overload',
               body: 'The onboarding tried to accomplish too many goals at once, creating unnecessary mental effort.',
             },
             {
@@ -316,7 +316,7 @@ function OnboardingDesign() {
         <PhaseBadge id="ommej-ai" icon={BrainIcon}>
           AI Iteration
         </PhaseBadge>
-        <TextBlock eyebrow="Ai assisted ideation" gap={32} width={628}>
+        <TextBlock eyebrow="AI assisted ideation" gap={32} width={628}>
           In this iteration AI was used as a design critique and ideation tool. I used ChatGPT, Figma Make and Claude Design to evaluate flows,
           generate alternative concepts, and identify UX patterns.
         </TextBlock>
@@ -337,8 +337,8 @@ function OnboardingDesign() {
       <CaseSection id="result" variant="wide" gap={40} labelledBy="ommej-result">
         <div className={styles.resultHeader}>
           <SectionTitle id="ommej-result">Result</SectionTitle>
-          {/* The original design has no destination for this button yet. */}
-          <Button color="#4956ca">Test prorotype</Button>
+          {/* No destination for this button yet. */}
+          <Button color="#4956ca">Test prototype</Button>
         </div>
         <ResultCard
           gradient={RESULT_GRADIENT_FIRST}
@@ -346,7 +346,7 @@ function OnboardingDesign() {
           paddingBlock={88}
           blocks={[
             {
-              title: 'Challange',
+              title: 'Challenge',
               body: "Ommej's value depends on children creating an account and answering questions. Without participation, professionals receive limited insight and cannot fully benefit from the service.",
             },
             {
@@ -364,7 +364,7 @@ function OnboardingDesign() {
           minHeight={590}
           blocks={[
             {
-              title: 'Challange',
+              title: 'Challenge',
               body: 'The original onboarding relied heavily on explanatory text, creating unnecessary cognitive load for younger users.',
             },
             {
@@ -382,12 +382,12 @@ function OnboardingDesign() {
           minHeight={590}
           blocks={[
             {
-              title: 'Challange',
+              title: 'Challenge',
               body: 'Many Ommej users may be experiencing difficult situations, making trust and emotional safety essential to the experience.',
             },
             {
               title: 'Solution',
-              body: 'While till keeping to Ommejs brand colors, a softer peach accent , age-appropriate language and familiar emojis helped create a safer experience.',
+              body: 'While still keeping to Ommej’s brand colors, a softer peach accent, age-appropriate language and familiar emojis helped create a safer experience.',
             },
           ]}
           artwork={<ResultSafetyPhones />}
@@ -402,15 +402,15 @@ function OnboardingDesign() {
         <ColumnGrid
           columns={[
             {
-              title: 'Kill your darlings',
-              body: 'I committed too early to a concept that attempted to communicate too much at once. Letting go of those ideas was difficult, but reduced cognetive load and friction in the flow.',
+              title: 'KILL YOUR DARLINGS',
+              body: 'I committed too early to a concept that attempted to communicate too much at once. Letting go of those ideas was difficult, but reduced cognitive load and friction in the flow.',
             },
             {
               title: 'LESS IS MORE',
               body: 'I spent a lot of time refining Ommej’s messaging, but learned that clear and short communication is more important than detailed content.',
             },
             {
-              title: 'reduce MANUAL PROTOTYPING',
+              title: 'REDUCE MANUAL PROTOTYPING',
               body: 'Building the initial prototype manually was time-consuming. Looking back, I would use AI earlier to speed up interactive prototyping.',
             },
           ]}
@@ -431,8 +431,8 @@ export default function OmmejCaseStudy() {
         <ProjectIntro
           logo={<Logo />}
           title="Ommej"
-          description="Ommej is a BTG company working with prevention of mental health challenges among children and young in the municipalities. The service consists of two connected products: the app, where children answer dynamic, adaptive questions about their life, health, and wellbeing. And the administrative system That helps professionals gain an overview and analyze responses to better understand needs and risks of the children."
-          link={{ label: 'View Ommej' }}
+          description="Ommej is a BTG company working with prevention of mental health challenges among children and young in the municipalities. The service consists of two connected products: the app, where children answer dynamic, adaptive questions about their life, health, and wellbeing. And the administrative system that helps professionals gain an overview and analyze responses to better understand needs and risks of the children."
+          link={{ label: 'View Ommej', href: 'https://www.ommej.se' }}
           overview={{
             title: 'Overview',
             body: "During the final year of my Bachelor’s degree in Interaction Design, I joined Ommej and worked alongside my studies. As Lead Designer, I launched new features, expanded Ommej's design system, and led UX and UI design across the platform. I also contributed with print and graphic design. My work has been centered around reducing information overload, designing for varying levels of digital literacy, and improving accessibility in line with WCAG guidelines.",

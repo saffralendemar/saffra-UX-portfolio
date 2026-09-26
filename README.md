@@ -88,9 +88,17 @@ them down to fit the screen, so only the pictures scale and the text reflows nor
    `TextBlock`, `MetaList`, `ColumnGrid` and `ResultCard`, plus `Figure`, `ImageGrid` or
    `Artwork` for media.
 3. Add the images under `src/assets/images/` and import them. The build fails if an
-   imported image is missing.
+   imported image is missing. Export large photos and screenshots as WebP at about 2–3×
+   their on-screen size, not straight from the camera or Figma (see Images below).
 4. Register the project in `src/projects/index.js`. The route `/projects/<slug>` and the
    home-page card are created automatically.
+
+## Images
+
+Large photos and screenshots are stored as WebP, sized to about 3× their largest on-screen
+size (sharp on retina screens and when zoomed) at quality 82. This took the site's images
+from 130 MB to 2.7 MB; for example, each sketch photo went from 17–19 MB to under 200 KB.
+The full-resolution originals are in git history (the Claude Design export commit on `main`).
 
 ## Migration notes
 

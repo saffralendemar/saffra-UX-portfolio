@@ -1,8 +1,8 @@
 /*
  * Site-wide content. All copy is taken verbatim from the original Claude Design export.
  */
-import portraitHero from '../assets/images/4e91d50d59399930df72d57326437c3fc607851e.png';
-import portraitAbout from '../assets/images/6621869cd6577a374aba2488a4cadb24b6fcddd9.png';
+import portraitHero from '../assets/images/4e91d50d59399930df72d57326437c3fc607851e.webp';
+import portraitAbout from '../assets/images/6621869cd6577a374aba2488a4cadb24b6fcddd9.webp';
 import iconDesign from '../assets/images/39b08fa25f8545f420b1757326dfb1b65791d18d.png';
 import iconHeart from '../assets/images/60325bf4d3e1ec777b03c580067b708b6cce0306.png';
 import iconSaffronBun from '../assets/images/saffronbun.svg';
@@ -38,7 +38,7 @@ export const about = {
     'I’m a UX/UI designer, dancer and windsurfer based in Malmö. What excites me most with UX is the intersection of aesthetics, usability, and functionality - designing solutions that look good and solve real problems.',
   pillars: [
     {
-      title: 'DESIGN PRINCIPALS',
+      title: 'DESIGN PRINCIPLES',
       body: "In my design work, I believe in informed decision making and that less is often more. I'm eager to expand my design knowledge by hands-on work!",
       icon: { src: iconDesign, alt: 'Design icon', width: 60, height: 60 },
     },
@@ -57,7 +57,7 @@ export const about = {
 
 export const contact = {
   headline: ['Great conversations', 'start with a', 'Swedish fika'],
-  body: ['Tell me about your project over cup of coffee.', "Let's chat!"],
+  body: ['Tell me about your project over a cup of coffee.', "Let's chat!"],
 };
 
 export const footer = {

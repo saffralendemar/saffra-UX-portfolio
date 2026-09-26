@@ -1,12 +1,12 @@
 /* Figma-generated artwork extracted from the original Claude Design export.
  * Treat as an illustration: edit the source design and re-export rather than hand-editing. */
-import imgImg3864 from '../../../assets/images/c6065f1f7d808f1e4de2d5dc640943f0026445ce.png';
+import imgImg3864 from '../../../assets/images/c6065f1f7d808f1e4de2d5dc640943f0026445ce.webp';
 import imgImg3863 from '../../../assets/images/bc5ed1be566e55749038d06ba7bd553806f97641.png';
 import imgImg3862 from '../../../assets/images/5c1bfd98c54b6c79a0c36f5e8a38753e9b23a657.png';
-import imgImg3861 from '../../../assets/images/157f5614ddcf47e685c4cf4c5a41657744af22d7.png';
-import imgImg3859 from '../../../assets/images/0682b296762b4a1c62e024777a10987bb026ed82.png';
+import imgImg3861 from '../../../assets/images/157f5614ddcf47e685c4cf4c5a41657744af22d7.webp';
+import imgImg3859 from '../../../assets/images/0682b296762b4a1c62e024777a10987bb026ed82.webp';
 import imgImg3885 from '../../../assets/images/cd45bfc28f6ac6c0e0b839d0a9c59dc6eababefb.png';
-import imgImg3883 from '../../../assets/images/c16f12403a7251df4800844fce76f1d43564f0ea.png';
+import imgImg3883 from '../../../assets/images/c16f12403a7251df4800844fce76f1d43564f0ea.webp';
 import imgImg3882 from '../../../assets/images/c4a6957fefff3bb9026164381b13f158add3883e.png';
 
 const svgPaths = {

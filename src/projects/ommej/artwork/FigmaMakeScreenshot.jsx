@@ -1,6 +1,6 @@
 /* Figma-generated artwork extracted from the original Claude Design export.
  * Treat as an illustration: edit the source design and re-export rather than hand-editing. */
-import imgSkarmavbild20260612Kl1354141 from '../../../assets/images/67c6a1ad60689cca53e36addff95bd6b0c88256e.png';
+import imgSkarmavbild20260612Kl1354141 from '../../../assets/images/67c6a1ad60689cca53e36addff95bd6b0c88256e.webp';
 
 function Frame214() {
   return (

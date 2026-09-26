@@ -46,7 +46,7 @@ const theme = { accent: '#99c8ff', highlight: '#5d97db' };
 function Discovery() {
   return (
     <CaseSection gap={64} labelledBy="cm-discovery">
-      <PhaseBadge id="cm-discovery">Discvoery</PhaseBadge>
+      <PhaseBadge id="cm-discovery">Discovery</PhaseBadge>
       <Split
         mainWidth={636}
         asideWidth={341}
@@ -113,14 +113,14 @@ function Discovery() {
 function Empathize() {
   return (
     <CaseSection variant="panel" gap={98} labelledBy="cm-empathize">
-      <PhaseBadge id="cm-empathize">Empathesize</PhaseBadge>
+      <PhaseBadge id="cm-empathize">Empathize</PhaseBadge>
       <Split
         mainWidth={637}
         asideWidth={327}
         main={
           <Stack gap={80}>
             <TextBlock eyebrow="USERS">
-              The emphasize phase is all about understanding the users, requiring the designer to step into their shoes. Therefore an focus group
+              The empathize phase is all about understanding the users, requiring the designer to step into their shoes. Therefore a focus group
               discussion with 3 participants from different tech levels was held to give me an idea of their individual needs and pain points.
               {'  '}Of course, 3 people can’t cover every issue, but it was a compromise to work within my time constraints.
             </TextBlock>
@@ -169,7 +169,7 @@ function Empathize() {
               headerMuted
               tagline="Tech-savvy man who wants more"
               name="Eric, 40 yrs"
-              description="Eric, a software developer, is knowledgeable about privacy management, and prefers clear, detailed information about cookie types and duration. He want the ability to configure preferences for each site individually."
+              description="Eric, a software developer, is knowledgeable about privacy management, and prefers clear, detailed information about cookie types and duration. He wants the ability to configure preferences for each site individually."
               descriptionFont="display"
               painPoint="Lack of system control and feeling dictated by the system."
             />
@@ -213,13 +213,13 @@ function Requirements() {
                 { text: 'See number of cookies', personas: ['paula', 'eric'] },
                 { text: 'Whitelist option for exceptions', personas: ['paula', 'eric'] },
                 { text: 'See user profile based on gathered data', personas: ['paula'], dropped: true },
-                { text: 'Other browsing data cleanup op§tions', personas: ['eric'], dropped: true, tone: '#828282' },
+                { text: 'Other browsing data cleanup options', personas: ['eric'], dropped: true, tone: '#828282' },
                 { text: 'Cache cleanup options', personas: ['eric'], dropped: true, tone: '#828282' },
               ]}
             />
           </Stack>
         }
-        aside={<Callout className={styles.requirementsCallout}>Requirements was extracted and filtered through the personas. </Callout>}
+        aside={<Callout className={styles.requirementsCallout}>Requirements were extracted and filtered through the personas.</Callout>}
       />
     </CaseSection>
   );
@@ -282,7 +282,7 @@ export default function CookieMonsterCaseStudy() {
             detail.
           </Paragraph>
         </Stack>
-        <Artwork width={1055} label="Design process: Discovery, Empathesize, Ideate, Prototype, Test and Iterate, all feeding into Requirements">
+        <Artwork width={1055} label="Design process: Discovery, Empathize, Ideate, Prototype, Test and Iterate, all feeding into Requirements">
           <ProcessDiagram />
         </Artwork>
       </CaseSection>
@@ -321,7 +321,7 @@ export default function CookieMonsterCaseStudy() {
       <CaseSection padding="80px 0 64px" labelledBy="cm-prototype">
         <PhaseBadge id="cm-prototype">Prototype</PhaseBadge>
         <TextBlock eyebrow="WIREFLOWS" width={625}>
-          The sketches was transferred into Figma and the wireframes were connected to prepare for the test phase. Underneath shows an example of how
+          The sketches were transferred into Figma and the wireframes were connected to prepare for the test phase. Underneath shows an example of how
           I was working with the wireflow for the onboarding process.
         </TextBlock>
         <Artwork label="Wireflow of the onboarding: welcome dialog, user-type choice and the resulting settings screens for each persona">
@@ -349,7 +349,7 @@ export default function CookieMonsterCaseStudy() {
                     'For Ylva, the design is slightly cumbersome and there is an excess of text.',
                     'Account symbol was confusing, as there was no account made in the onboarding process. The users prefer the login to be optional.',
                     'The flows for overview and settings are lacking coherence between the small and tall modal windows.',
-                    'The cookie information displayed in small modal window is confusing. What does the numbers mean?',
+                    'The cookie information displayed in small modal window is confusing. What do the numbers mean?',
                   ]}
                 />
               </Stack>
@@ -395,14 +395,14 @@ export default function CookieMonsterCaseStudy() {
           columns={[
             {
               title: 'TEST EARLIER',
-              body: 'I would like to see myself test at en even earlier state in the future, to ensure I’m on the right path.',
+              body: 'I would like to see myself test at an even earlier stage in the future, to ensure I’m on the right path.',
             },
             {
               title: 'FIXATING ON DETAILS',
-              body: 'I often found myself loosing time on moving pixels, and had to remember to step back and focus on the bigger picture.',
+              body: 'I often found myself losing time on moving pixels, and had to remember to step back and focus on the bigger picture.',
             },
             {
-              title: 'Summative evaluation',
+              title: 'SUMMATIVE EVALUATION',
               body: 'If I had more time I would like to evaluate the final design with users, to confirm the iteration resulted in an improvement.',
             },
           ]}

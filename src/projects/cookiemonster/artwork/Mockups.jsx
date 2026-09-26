@@ -1,6 +1,6 @@
 /* Figma-generated artwork extracted from the original Claude Design export.
  * Treat as an illustration: edit the source design and re-export rather than hand-editing. */
-import imgRectangle23 from '../../../assets/images/caa57dc4bea654ff1918964434d7303e6c408f7b.png';
+import imgRectangle23 from '../../../assets/images/caa57dc4bea654ff1918964434d7303e6c408f7b.webp';
 import imgFrameForScroll from '../../../assets/images/651d763c59d22b730ee4696f19eca6d7e067789e.png';
 import imgFrameForScroll1 from '../../../assets/images/17a2c18a7d3a54907895425bbdf1a269cfc13ab5.png';
 import imgSmallModalWindow from '../../../assets/images/22b01800fa393bebbc73d97e6ef9f73956a8cc19.png';

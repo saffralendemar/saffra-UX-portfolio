@@ -19,7 +19,7 @@ function Frame115() {
         <p className="[word-break:break-word] font-['Poppins',sans-serif] font-[400] leading-[1.7] not-italic relative shrink-0 text-[15.5px] text-black text-center whitespace-nowrap">Discovery</p>
       </div>
       <div className="bg-[#99c8ff] content-stretch flex items-center justify-center px-[32px] py-[16px] relative rounded-[14.776px] shrink-0 w-[164.347px]" data-name="Card: Design Process">
-        <p className="[word-break:break-word] font-['Poppins',sans-serif] font-[400] leading-[1.5] not-italic relative shrink-0 text-[15.551px] text-black text-center whitespace-nowrap">Empathesize</p>
+        <p className="[word-break:break-word] font-['Poppins',sans-serif] font-[400] leading-[1.5] not-italic relative shrink-0 text-[15.551px] text-black text-center whitespace-nowrap">Empathize</p>
       </div>
       <div className="bg-[#99c8ff] content-stretch flex items-center justify-center px-[32px] py-[16px] relative rounded-[14.776px] shrink-0 w-[164.347px]" data-name="Card: Design Process">
         <p className="[word-break:break-word] font-['Poppins',sans-serif] font-[400] leading-[1.5] not-italic relative shrink-0 text-[15.551px] text-black text-center whitespace-nowrap">Ideate</p>

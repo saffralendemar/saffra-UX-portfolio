@@ -1,5 +1,5 @@
 import fikaBackground from '../../assets/images/FikaSectionBackground.svg';
-import coffeeIcon from '../../assets/images/86be58a531d7b796319cd9328a5f9675b97c83f9.png';
+import coffeeIcon from '../../assets/images/86be58a531d7b796319cd9328a5f9675b97c83f9.webp';
 import fikaLogomark from '../../assets/images/fika-logomark.svg';
 import FikaFrame from './artwork/FikaFrame';
 import styles from './FikaCard.module.css';
