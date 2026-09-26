@@ -1,0 +1,107 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 26px;
+  padding-block: var(--space-7);
+}
+
+.title {
+  margin: 0;
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  font-weight: var(--weight-medium);
+  font-size: var(--text-md);
+  line-height: var(--leading-normal);
+  text-align: center;
+}
+
+.tablist {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-5);
+  max-width: calc(100% - 2 * var(--page-gutter));
+  padding: var(--space-3);
+  box-sizing: border-box;
+  border-radius: var(--radius-lg);
+  background: #f8f8f8;
+}
+
+.tab {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 45px;
+  padding: 9px 18px;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: var(--radius-md);
+  background: transparent;
+  color: var(--color-ink);
+  font-family: var(--font-display);
+  font-weight: var(--weight-regular);
+  font-size: var(--text-sm);
+  line-height: var(--leading-normal);
+  text-align: center;
+  white-space: nowrap;
+  transition: background-color 0.15s var(--ease);
+}
+
+.tab[aria-selected='true'] {
+  background: var(--case-accent);
+}
+
+.panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-7);
+  width: 100%;
+}
+
+.panel > * {
+  width: 100%;
+}
+
+.comingSoon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-5);
+  max-width: 700px;
+  padding: var(--space-12) var(--page-gutter);
+  box-sizing: border-box;
+}
+
+.emoji {
+  font-size: 72px;
+  line-height: 1;
+}
+
+.comingTitle {
+  margin: 0;
+  color: #1a1a1a;
+  font-family: var(--font-display);
+  font-weight: var(--weight-medium);
+  font-size: 32px;
+  text-align: center;
+}
+
+.comingBody {
+  margin: 0;
+  color: #666666;
+  font-family: var(--font-body);
+  font-weight: var(--weight-regular);
+  font-size: var(--text-md);
+  line-height: var(--leading-relaxed);
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .tab {
+    white-space: normal;
+  }
+}

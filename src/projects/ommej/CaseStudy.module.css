@@ -1,0 +1,80 @@
+/* Ommej-specific layout details. Shared styling lives in src/components/case-study. */
+
+.backRow {
+  display: flex;
+  padding-left: clamp(24px, 5.56vw, 80px);
+  box-sizing: border-box;
+}
+
+.logo {
+  position: relative;
+  display: block;
+  flex-shrink: 0;
+  width: 64px;
+  height: 64px;
+}
+
+.logoCircle {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.challengeAside {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: var(--space-8);
+  height: 100%;
+}
+
+.understand {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-7);
+}
+
+.prototypeRow {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-5);
+  width: 100%;
+}
+
+.prototypeStrip {
+  width: 100%;
+  max-width: 944px;
+  padding: 30px 18px;
+  box-sizing: border-box;
+  border-radius: var(--radius-lg);
+  background: #f0f0f0;
+}
+
+.resultHeader {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--space-5);
+}
+
+.compactTitle {
+  line-height: normal;
+}
+
+@media (min-width: 900px) {
+  .understand {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 58px;
+  }
+
+  .prototypeRow {
+    flex-direction: row;
+    align-items: center;
+  }
+}

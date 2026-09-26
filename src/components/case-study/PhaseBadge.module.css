@@ -1,0 +1,28 @@
+.badge {
+  display: inline-flex;
+  align-self: flex-start;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-4);
+  margin: 0;
+  padding: var(--space-4) var(--space-6);
+  border-radius: var(--radius-pill);
+  background: var(--case-accent);
+  color: var(--color-ink);
+  font-family: var(--font-display);
+  font-weight: var(--weight-regular);
+  font-size: var(--text-lg);
+  line-height: var(--leading-relaxed);
+  text-align: center;
+  white-space: nowrap;
+}
+
+.icon {
+  color: var(--color-ink);
+}
+
+@media (max-width: 767px) {
+  .badge {
+    font-size: 24px;
+  }
+}

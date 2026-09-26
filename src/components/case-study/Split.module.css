@@ -1,0 +1,29 @@
+.split {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-8);
+  width: 100%;
+}
+
+.main,
+.aside {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+@media (min-width: 900px) {
+  .split {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: var(--space-8);
+  }
+
+  .main {
+    flex: 0 1 var(--split-main);
+  }
+
+  .aside {
+    flex: 0 1 var(--split-aside);
+  }
+}

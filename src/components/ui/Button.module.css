@@ -1,0 +1,98 @@
+.button {
+  --button-bg: var(--color-button-dark);
+  --button-ink: #ffffff;
+  position: relative;
+  display: inline-flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: 0;
+  border-radius: var(--radius-md);
+  background: var(--button-bg);
+  color: var(--button-ink);
+  font-family: var(--font-display);
+  font-weight: var(--weight-regular);
+  line-height: var(--leading-normal);
+  text-align: center;
+  white-space: nowrap;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color var(--duration-base) var(--ease);
+}
+
+.button:hover,
+.button:focus-visible {
+  color: var(--button-ink);
+}
+
+/* Hover / pressed state layer (mirrors the original ::after overlay). */
+.button::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  border-radius: inherit;
+  background: rgba(0, 0, 0, 0);
+  transition: background var(--duration-fast) var(--ease);
+  pointer-events: none;
+}
+
+.button:hover::after {
+  background: rgba(0, 0, 0, 0.12);
+}
+
+.button:active::after {
+  background: rgba(0, 0, 0, 0.22);
+}
+
+.button > * {
+  position: relative;
+  z-index: 1;
+}
+
+.md {
+  padding: 12px 24px;
+  font-size: var(--text-md);
+}
+
+.sm {
+  height: 45px;
+  padding: 9px 18px;
+  font-size: var(--text-sm);
+  box-sizing: border-box;
+}
+
+.solid {
+  background: var(--button-bg);
+}
+
+.soft {
+  background: transparent;
+}
+
+.softFill {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background-color: #000000;
+  mix-blend-mode: soft-light;
+  pointer-events: none;
+}
+
+.label {
+  position: relative;
+}
+
+.icon {
+  display: inline-flex;
+}
+
+.static {
+  cursor: default;
+}
+
+.static:hover::after,
+.static:active::after {
+  background: rgba(0, 0, 0, 0);
+}

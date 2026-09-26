@@ -1,0 +1,95 @@
+/*
+ * Design tokens — extracted from the original Claude Design / Figma export.
+ * Values are in CSS pixels at the 1440px desktop design width.
+ */
+:root {
+  /* Colour */
+  --color-bg: #ffffff;
+  --color-bg-subtle: #fcfcfc;
+  --color-bg-muted: #f9f9f9;
+  --color-ink: #000000;
+  --color-ink-body: oklch(0.145 0 0);
+  --color-ink-muted: #494949;
+  --color-ink-soft: #5d5c5c;
+  --color-ink-strikethrough: #959595;
+  --color-ink-icon: #121330;
+  --color-border: #a7a7a7;
+  --color-divider: #d9d9d9;
+  --color-tag-bg: #f1f1f1;
+  --color-button-dark: #494949;
+  --color-status-available: #bbf7e9;
+  --color-linkedin: #ababe7;
+
+  /* Gradients */
+  --gradient-home-hero: linear-gradient(142.28deg, rgb(171, 171, 231) 27.861%, rgb(143, 225, 208) 97.621%);
+  --gradient-dark-card: linear-gradient(-22.1925deg, rgb(49, 49, 49) 23.475%, rgb(0, 0, 0) 76.525%);
+  --gradient-persona-card: linear-gradient(-53.3266deg, rgb(49, 49, 49) 23.475%, rgb(0, 0, 0) 76.525%);
+
+  /* Typography */
+  --font-display: 'Poppins', sans-serif;
+  --font-body: 'Work Sans', sans-serif;
+
+  --text-caption: 11px;
+  --text-sm: 14px;
+  --text-md: 18px;
+  --text-lg: 29px;
+  --text-xl: 47px;
+
+  --leading-tight: 1.2;
+  --leading-normal: 1.5;
+  --leading-relaxed: 1.7;
+  --leading-display: 70px;
+
+  --weight-light: 300;
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+
+  /* Spacing scale */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 40px;
+  --space-8: 48px;
+  --space-9: 64px;
+  --space-10: 80px;
+  --space-11: 100px;
+  --space-12: 120px;
+
+  /* Radius */
+  --radius-sm: 7px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 20px;
+  --radius-pill: 23.916px;
+
+  /* Layout */
+  --header-height: 93px;
+  --page-max-width: 1200px;
+  --page-gutter: 32px;
+  --content-width: 1062px;
+  --panel-width: 1280px;
+  --feature-width: 1288px;
+  --column-main: 620px;
+  --column-aside: 327px;
+
+  /* Motion */
+  --ease: ease;
+  --duration-fast: 0.18s;
+  --duration-base: 0.25s;
+
+  /* Elevation */
+  --shadow-card-hover: 0 12px 32px rgba(0, 0, 0, 0.12);
+
+  /* Breakpoints (reference only — CSS custom properties can't be used in media queries):
+     sm 640px · md 768px · lg 1024px · xl 1280px */
+}
+
+@media (max-width: 767px) {
+  :root {
+    --page-gutter: 24px;
+  }
+}

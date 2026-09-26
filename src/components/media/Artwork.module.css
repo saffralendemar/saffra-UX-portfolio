@@ -1,0 +1,20 @@
+.outer {
+  position: relative;
+  width: 100%;
+}
+
+.center {
+  margin-inline: auto;
+}
+
+.end {
+  margin-left: auto;
+}
+
+.inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform-origin: top left;
+  box-sizing: border-box;
+}

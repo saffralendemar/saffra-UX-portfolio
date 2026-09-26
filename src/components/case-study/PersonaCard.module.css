@@ -1,0 +1,70 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-7);
+  min-height: 522px;
+  padding: 36.488px;
+  box-sizing: border-box;
+  border-radius: 20.831px;
+  background-image: var(--gradient-persona-card);
+  color: #ffffff;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 24.325px;
+  min-height: 103.382px;
+}
+
+.tagline {
+  max-width: 162.458px;
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: var(--weight-semibold);
+  font-size: 15.638px;
+  line-height: normal;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  gap: 6.95px;
+}
+
+.name {
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: var(--weight-medium);
+  font-size: 25.194px;
+  line-height: normal;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 13.9px;
+}
+
+.description,
+.descriptionDisplay {
+  margin: 0;
+  font-family: var(--font-body);
+  font-weight: var(--weight-regular);
+  font-size: var(--text-md);
+  line-height: normal;
+}
+
+.descriptionDisplay {
+  font-family: var(--font-display);
+}
+
+.painLabel {
+  font-weight: var(--weight-semibold);
+}
+
+@media (max-width: 767px) {
+  .card {
+    min-height: 0;
+  }
+}

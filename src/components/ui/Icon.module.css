@@ -1,0 +1,11 @@
+.icon {
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.glyph {
+  position: absolute;
+  display: block;
+}

@@ -1,0 +1,21 @@
+.page {
+  --case-accent: #c8caff;
+  --case-accent-strong: #4956ca;
+  --case-highlight: #4956ca;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-7);
+  padding-top: 109px;
+  overflow-x: clip;
+}
+
+.page > * {
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .page {
+    gap: var(--space-5);
+  }
+}

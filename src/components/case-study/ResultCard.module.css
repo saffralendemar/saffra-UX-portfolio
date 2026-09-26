@@ -1,0 +1,37 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-7);
+  padding: var(--space-8) var(--page-gutter);
+  box-sizing: border-box;
+  border-radius: var(--radius-xl);
+  background-image: var(--result-gradient);
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-7);
+}
+
+.artwork {
+  width: 100%;
+  min-width: 0;
+}
+
+@media (min-width: 1024px) {
+  .card {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--result-padding-block) 80px;
+  }
+
+  .text {
+    flex: 0 1 var(--result-text-width);
+  }
+
+  .artwork {
+    flex: 0 1 600px;
+  }
+}
