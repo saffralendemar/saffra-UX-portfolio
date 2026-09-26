@@ -1,0 +1,5 @@
+.bleed {
+  --bleed-size: min(var(--bleed-width), calc(100vw - 2 * var(--page-gutter)));
+  width: var(--bleed-size);
+  margin-inline: calc((100% - var(--bleed-size)) / 2);
+}

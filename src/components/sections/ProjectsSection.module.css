@@ -1,0 +1,23 @@
+.section {
+  padding-top: var(--space-12);
+  padding-bottom: 140px;
+  background: var(--color-bg);
+}
+
+.inner {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+  width: 100%;
+  max-width: var(--content-width);
+  margin: 0 auto;
+}
+
+.title {
+  margin: 0;
+  color: var(--color-ink-muted);
+  font-family: var(--font-display);
+  font-weight: var(--weight-regular);
+  font-size: var(--text-lg);
+  line-height: var(--leading-relaxed);
+}

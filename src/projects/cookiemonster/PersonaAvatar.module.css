@@ -1,0 +1,31 @@
+.avatar {
+  position: relative;
+  display: inline-flex;
+  flex-shrink: 0;
+  align-items: center;
+  box-sizing: border-box;
+  border-radius: 50%;
+}
+
+.texture,
+.fill {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+}
+
+.texture {
+  background-position: top left;
+  background-size: var(--texture-size) var(--texture-size);
+  mix-blend-mode: luminosity;
+  opacity: 0.7;
+}
+
+.fill {
+  background: var(--persona-color);
+}
+
+.avatar > :last-child:not(.fill) {
+  position: relative;
+}

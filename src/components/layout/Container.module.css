@@ -1,0 +1,28 @@
+.container {
+  width: 100%;
+  margin-inline: auto;
+  box-sizing: border-box;
+}
+
+.page {
+  max-width: var(--page-max-width);
+  padding-inline: var(--page-gutter);
+}
+
+.content {
+  max-width: calc(var(--content-width) + 2 * var(--page-gutter));
+  padding-inline: var(--page-gutter);
+}
+
+.wide {
+  max-width: calc(1224px + 2 * var(--page-gutter));
+  padding-inline: var(--page-gutter);
+}
+
+.panel {
+  max-width: var(--panel-width);
+}
+
+.feature {
+  max-width: var(--feature-width);
+}

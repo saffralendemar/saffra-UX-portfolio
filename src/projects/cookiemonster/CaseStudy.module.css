@@ -1,0 +1,42 @@
+/* CookieMonster-specific layout details. Shared styling lives in src/components/case-study. */
+
+.line {
+  display: block;
+  white-space: pre-wrap;
+}
+
+.personas {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 17px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.personas > li {
+  display: flex;
+}
+
+.personas > li > * {
+  flex: 1;
+}
+
+.compactTitle {
+  line-height: normal;
+}
+
+@media (min-width: 900px) {
+  .personas {
+    grid-template-columns: repeat(3, minmax(0, 344px));
+  }
+
+  /* Align the pull quotes with the copy they accompany, as in the design. */
+  .empathizeCallout {
+    padding-top: 33px;
+  }
+
+  .requirementsCallout {
+    padding-top: 145px;
+  }
+}

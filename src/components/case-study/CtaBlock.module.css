@@ -1,0 +1,19 @@
+.cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-6);
+}
+
+.title {
+  max-width: 327px;
+  margin: 0;
+  color: var(--color-ink);
+  font-family: var(--font-display);
+  font-weight: var(--weight-regular);
+  font-size: var(--text-lg);
+  line-height: normal;
+  text-align: center;
+  white-space: pre-wrap;
+}

@@ -1,0 +1,79 @@
+/*
+ * Tailwind is only used by the Figma-generated artwork modules (the artwork/ folders in src),
+ * which rely on its arbitrary-value utilities. It is compiled at build time — there is no
+ * runtime cost. Its preflight reset matches the base styles of the original export.
+ * Hand-written components use CSS Modules + the tokens in tokens.css.
+ */
+@import 'tailwindcss';
+@import './tokens.css';
+
+html,
+body {
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-ink-body);
+}
+
+body {
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  color: inherit;
+}
+
+button,
+a,
+[role='button'] {
+  cursor: pointer;
+}
+
+:focus-visible {
+  outline: 2px solid #4956ca;
+  outline-offset: 3px;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.skip-link {
+  position: absolute;
+  left: 16px;
+  top: -100px;
+  z-index: 2000;
+  padding: 12px 18px;
+  border-radius: var(--radius-md);
+  background: var(--color-ink);
+  color: #fff;
+  font: var(--weight-medium) var(--text-sm) / var(--leading-normal) var(--font-display);
+  text-decoration: none;
+}
+
+.skip-link:focus {
+  top: 16px;
+  color: #fff;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}

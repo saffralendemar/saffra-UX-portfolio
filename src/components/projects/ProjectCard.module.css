@@ -1,0 +1,117 @@
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+  width: 100%;
+  padding: 72px var(--space-5) var(--space-5);
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: var(--radius-xl);
+  background-image: var(--card-gradient);
+  color: var(--card-ink);
+  cursor: pointer;
+  transition:
+    transform 0.22s var(--ease),
+    box-shadow 0.22s var(--ease);
+}
+
+.card:hover,
+.card:focus-within {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-card-hover);
+}
+
+.tags {
+  position: absolute;
+  top: var(--card-tags-top);
+  left: var(--card-tags-left);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+}
+
+.artwork {
+  width: 100%;
+  min-width: 0;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+  word-break: break-word;
+}
+
+.title {
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: var(--weight-medium);
+  font-size: clamp(32px, 4vw, var(--text-xl));
+  line-height: var(--leading-display);
+}
+
+.summary {
+  margin: 0;
+  font-family: var(--font-body);
+  font-weight: var(--weight-regular);
+  font-size: var(--text-md);
+  line-height: var(--leading-relaxed);
+  white-space: pre-wrap;
+}
+
+.line {
+  display: block;
+}
+
+.cta {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Desktop: the original 1062 × 450 composition. */
+@media (min-width: 1024px) {
+  .card {
+    display: block;
+    height: 450px;
+    padding: 0;
+  }
+
+  .content {
+    position: absolute;
+    top: 50%;
+    left: var(--card-left);
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: min(var(--card-content-width), calc(100% - var(--card-left) - 40px));
+    transform: translateY(-50%);
+  }
+
+  .content[data-justify='start'] {
+    justify-content: flex-start;
+    gap: var(--card-gap);
+  }
+
+  .artwork {
+    flex: 0 1 var(--card-artwork-width);
+  }
+
+  .text {
+    flex: 0 0 var(--card-text-width);
+  }
+
+  /* Titles may overhang the text column, as in the design ("Matt movilidad"). */
+  .title {
+    white-space: nowrap;
+  }
+
+  .cta {
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+  }
+}

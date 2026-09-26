@@ -1,0 +1,37 @@
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-12) var(--page-gutter);
+  overflow: hidden;
+  border-radius: var(--radius-xl);
+  background-image: var(--gradient-dark-card);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-6);
+  max-width: 467px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.eyebrow {
+  color: #ffffff;
+}
+
+.statement {
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: var(--weight-regular);
+  font-size: var(--text-lg);
+  line-height: var(--leading-relaxed);
+}
+
+@media (max-width: 767px) {
+  .statement {
+    font-size: 24px;
+  }
+}
