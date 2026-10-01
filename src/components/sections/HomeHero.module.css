@@ -75,6 +75,25 @@
 
 .status svg {
   display: block;
+  animation: status-blink 1.6s ease-in-out infinite;
+}
+
+/* "Open for work" indicator blinks gently. */
+@keyframes status-blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.25;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .status svg {
+    animation: none;
+  }
 }
 
 .portrait {
