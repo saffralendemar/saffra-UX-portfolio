@@ -169,6 +169,13 @@
   padding: 24px 24px 28px;
 }
 
+/* Phones: a slimmer bar so the header takes less of the screen. */
+@media (max-width: 767px) {
+  .bar {
+    padding: 0 var(--page-gutter);
+  }
+}
+
 @media (min-width: 768px) {
   .nav {
     display: flex;

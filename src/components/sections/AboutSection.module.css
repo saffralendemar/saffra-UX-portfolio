@@ -124,3 +124,15 @@
     flex-direction: row;
   }
 }
+
+/* Phones: less empty space around the section and between its blocks. */
+@media (max-width: 767px) {
+  .section {
+    padding-top: var(--space-9);
+    padding-bottom: var(--space-10);
+  }
+
+  .stack {
+    gap: var(--space-8);
+  }
+}

@@ -24,7 +24,7 @@ export const anchors = {
 };
 
 export const homeHero = {
-  greeting: "Hello!  I'm Saffra:",
+  greeting: "Hello!  I'm Saffra",
   headline: ['UX/UI Designer intertwining', 'functionality with creativity'],
   cta: 'View projects',
   status: 'Open for work',
@@ -61,6 +61,6 @@ export const contact = {
 };
 
 export const footer = {
-  items: ['Legal Notice', 'Privacy Policy', 'Built in Figma'],
+  items: ['Legal Notice', 'Privacy Policy', 'Built with Claude'],
   cta: 'Keep in touch',
 };

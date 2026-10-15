@@ -64,3 +64,19 @@
     align-items: center;
   }
 }
+
+/* Phones: drop the dividers (they end up dangling at line ends when the row wraps)
+   and put the copyright line on its own row. */
+@media (max-width: 639px) {
+  .meta {
+    gap: var(--space-2) var(--space-5);
+  }
+
+  .owner {
+    flex-basis: 100%;
+  }
+
+  .divider {
+    display: none;
+  }
+}

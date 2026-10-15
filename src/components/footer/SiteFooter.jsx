@@ -2,17 +2,6 @@ import { Fragment } from 'react';
 import { site, footer } from '../../content/site';
 import styles from './SiteFooter.module.css';
 
-function CopyrightMark() {
-  return (
-    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true" className={styles.mark}>
-      <path d="M8 15C11.866 15 15 11.866 15 8C15 4.13401 11.866 1 8 1C4.13401 1 1 4.13401 1 8C1 11.866 4.13401 15 8 15Z" stroke="currentColor" strokeWidth="1.23" />
-      <text x="8" y="11" textAnchor="middle" fontSize="7" fill="currentColor" fontFamily="sans-serif">
-        c
-      </text>
-    </svg>
-  );
-}
-
 function LinkedInMark() {
   return (
     <svg width="32" height="32" viewBox="0 0 31.7037 31.7038" fill="none" aria-hidden="true" className={styles.mark}>
@@ -30,8 +19,9 @@ export default function SiteFooter() {
       <div className={styles.inner}>
         <div className={styles.meta}>
           <p className={styles.owner}>
-            <CopyrightMark />
-            <span className={styles.text}>{site.name}</span>
+            <span className={styles.text}>
+              © {new Date().getFullYear()} {site.name}
+            </span>
           </p>
           {footer.items.map((item) => (
             <Fragment key={item}>

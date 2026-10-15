@@ -26,12 +26,12 @@ function PhoneIcon() {
 }
 
 /** "Great conversations start with a Swedish fika" — closes every page. */
-export default function ContactSection({ illustration = 'home' }) {
+export default function ContactSection() {
   return (
     <section id={anchors.contact} className={styles.section} aria-labelledby="contact-title">
       <Container>
         <div className={styles.row}>
-          <FikaCard variant={illustration} />
+          <FikaCard />
           <div className={styles.copy}>
             <h2 id="contact-title" className={styles.title}>
               {contact.headline.map((line) => (

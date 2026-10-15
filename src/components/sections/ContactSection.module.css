@@ -71,3 +71,21 @@
     flex-direction: row;
   }
 }
+
+/* Phones: less empty space, and a line height that suits the smaller heading
+   (the fixed 70px leaves wide gaps between its lines). */
+@media (max-width: 767px) {
+  .section {
+    padding-top: var(--space-10);
+    padding-bottom: var(--space-11);
+  }
+
+  .row {
+    align-items: flex-start;
+    gap: var(--space-8);
+  }
+
+  .title {
+    line-height: 1.3;
+  }
+}

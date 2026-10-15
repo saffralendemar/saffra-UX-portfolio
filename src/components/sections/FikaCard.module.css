@@ -7,6 +7,16 @@
   overflow: hidden;
 }
 
+/* The illustration at its design size; FikaCard scales it to the card's width. */
+.stage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 416px;
+  height: 406px;
+  transform-origin: 0 0;
+}
+
 .homeCanvas {
   position: relative;
   width: 100%;

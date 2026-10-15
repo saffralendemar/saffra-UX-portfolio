@@ -72,6 +72,18 @@
   justify-content: flex-end;
 }
 
+/* Below desktop: let the summary wrap naturally instead of keeping the desktop line breaks,
+   and tighten the title's fixed 70px line height. */
+@media (max-width: 1023px) {
+  .title {
+    line-height: var(--leading-tight);
+  }
+
+  .line {
+    display: inline;
+  }
+}
+
 /* Desktop: the original 1062 × 450 composition. */
 @media (min-width: 1024px) {
   .card {

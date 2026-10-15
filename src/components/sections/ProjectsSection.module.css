@@ -21,3 +21,11 @@
   font-size: var(--text-lg);
   line-height: var(--leading-relaxed);
 }
+
+/* Phones: less empty space around the section. */
+@media (max-width: 767px) {
+  .section {
+    padding-top: var(--space-9);
+    padding-bottom: var(--space-10);
+  }
+}

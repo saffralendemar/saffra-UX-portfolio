@@ -19,7 +19,7 @@ export default function CaseStudyPage() {
       <Suspense fallback={<div className={styles.loading} role="status" aria-label="Loading case study" />}>
         <CaseStudy project={project} />
       </Suspense>
-      <ContactSection illustration={project.status === 'published' ? 'case' : 'home'} />
+      <ContactSection />
     </>
   );
 }

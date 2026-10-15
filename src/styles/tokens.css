@@ -91,5 +91,6 @@
 @media (max-width: 767px) {
   :root {
     --page-gutter: 24px;
+    --header-height: 72px;
   }
 }

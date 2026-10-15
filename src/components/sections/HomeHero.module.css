@@ -114,3 +114,17 @@
     display: block;
   }
 }
+
+/* Phones: show a smaller portrait above the greeting instead of hiding it. */
+@media (max-width: 639px) {
+  .row {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    gap: var(--space-5);
+  }
+
+  .portrait {
+    display: block;
+    width: 112px;
+  }
+}
