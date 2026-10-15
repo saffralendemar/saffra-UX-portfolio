@@ -10,7 +10,7 @@ import iconSaffronBun from '../assets/images/saffronbun.svg';
 export const site = {
   name: 'Saffra Lendemar',
   title: 'Saffra Lendemar – UX/UI Designer',
-  resumeUrl: 'https://drive.google.com/file/d/1QsPoNtUWVdZXhQ-covbn8mKZ0hATkZTM/view?usp=sharing',
+  resumeUrl: 'https://drive.google.com/file/d/1B1VU63jk5BlhXbygPvvRh_gvNm3BQ6OR/view?usp=sharing',
   linkedInUrl: 'https://www.linkedin.com/in/saffra-lendemar',
   email: 'Saffra.lendemar@zoho.com',
   phone: '+46 767 91 11 49',
