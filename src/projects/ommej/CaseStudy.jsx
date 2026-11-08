@@ -337,8 +337,12 @@ function OnboardingDesign() {
       <CaseSection id="result" variant="wide" gap={40} labelledBy="ommej-result">
         <div className={styles.resultHeader}>
           <SectionTitle id="ommej-result">Result</SectionTitle>
-          {/* No destination for this button yet. */}
-          <Button color="#4956ca">Test prototype</Button>
+          <Button
+            color="#4956ca"
+            href="https://www.figma.com/proto/GA3TQBUNOVyipfeKLdptyN/Ommej--min-fil-?node-id=378-14473&viewport=-17237%2C-836%2C0.26&t=jL51axu0vDklLhCQ-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=378%3A14473&show-proto-sidebar=1&page-id=130%3A18333"
+          >
+            Test prototype
+          </Button>
         </div>
         <ResultCard
           gradient={RESULT_GRADIENT_FIRST}
